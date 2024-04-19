@@ -1,0 +1,85 @@
+.highlight-border > td {
+  box-shadow: 0 0 0 0.1px black !important;
+  padding: 10px; /* Adjust the padding as needed */
+  margin: 0; /* Remove default margin */
+}
+
+.fixed-height-table {
+  max-height: 700px; /* Adjust the height as needed */
+  overflow-y: auto;
+}
+
+.sticky-header {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 1;
+}
+
+.ant-table-tbody .ant-table-row:nth-child(even) {
+  background-color: #f1f0f2;
+  
+}
+
+
+ .ant-table-thead .ant-table-cell {
+  background-color:  !important;
+  height:50px
+  }
+
+
+  .drawer-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1px;
+  border-bottom: 2px solid #e8e8e8;
+}
+
+.close-button {
+  padding: 5px;
+  margin-top: -35px; /* Adjust as needed */
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.support-number-container {
+  padding: 1rem;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.input-wrapper {
+  margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .input-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .input-wrapper {
+    flex: 1;
+    margin-right: 1rem;
+  }
+}
+
+
+/*Ride Management*/
+
+.custom-table .ant-table-wrapper {
+  overflow: auto; /* Ensure vertical scrollbar only appears when needed */
+}
+
+.custom-table .ant-table-cell {
+  white-space: nowrap; /* Prevent text wrapping */
+}
+
+
+
